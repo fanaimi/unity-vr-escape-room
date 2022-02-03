@@ -16,3 +16,9 @@
 	
 * on XR Origin:
 	* add component "Input Action Manager"
+	* click plus icon under Action Assets
+	* from Assets > samples > XR Interaction toolkit > v.v.v-pre-v > Default Input Actions
+		* drag XRI Default Input Actions into Element 0
+		
+	* add component "Locomotion System"
+		* drag XR Origin into Locomotion System
