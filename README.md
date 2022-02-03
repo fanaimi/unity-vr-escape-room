@@ -55,3 +55,21 @@
 	* DO THE SAME FOR LEFT CONTROLLER		
 	
 * Drag XR Origin from hierarchy into PREFABS folder	
+
+* create an empty object under LeftHandGrabController and name it LeftHandINVENTORY
+	* do the same with right hand
+	* select XR ORIGIN and in Inspector, Overrides > apply all
+	
+* LEftHand Teleportation Controller (inspector)	 > XR Ray Interactor > 
+	* Line Type > set "Bezier curve"
+	* Raycast Mask > nothing, then > Teleportation (layer created earlier)
+	* do the same for RightHand  Teleportation Controller
+	
+* in BOTH Teleportation Controllers > XR Interactor Line Visual > Invalid Color Gradient > 
+	* set alpha to 0 (in gradient editor, top pins)
+
+* select XR ORIGIN and in Inspector, Overrides > apply all	
+
+#### preparing PROPS
+* add Box Collider
+* add XR GRAB INTERACTABLE
